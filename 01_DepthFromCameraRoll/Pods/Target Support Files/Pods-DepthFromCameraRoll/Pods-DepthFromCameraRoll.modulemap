@@ -1,0 +1,6 @@
+framework module Pods_DepthFromCameraRoll {
+  umbrella header "Pods-DepthFromCameraRoll-umbrella.h"
+
+  export *
+  module * { export * }
+}

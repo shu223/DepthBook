@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A892BC9215DEB520094DB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892BC8215DEB520094DB58 /* AppDelegate.swift */; };
+		8A892BCB215DEB520094DB58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892BCA215DEB520094DB58 /* ViewController.swift */; };
+		8A892BCE215DEB520094DB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A892BCC215DEB520094DB58 /* Main.storyboard */; };
+		8A892BD0215DEB520094DB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A892BCF215DEB520094DB58 /* Assets.xcassets */; };
+		8A892BD3215DEB520094DB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A892BD1215DEB520094DB58 /* LaunchScreen.storyboard */; };
+		8A892BE4215DEC480094DB58 /* AVDepthData+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892BDD215DEC480094DB58 /* AVDepthData+Utils.swift */; };
+		8A892BE7215DEC480094DB58 /* CGImageSource+Depth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892BE0215DEC480094DB58 /* CGImageSource+Depth.swift */; };
+		8A892BE8215DEC480094DB58 /* PhotosUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892BE1215DEC480094DB58 /* PhotosUtils.swift */; };
+		8A892BEA215DEC840094DB58 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892BE9215DEC840094DB58 /* UIImage+Utils.swift */; };
+		8A892BEE215DEDD50094DB58 /* image-with-matte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A892BEC215DEDD50094DB58 /* image-with-matte.jpg */; };
+		8A892BEF215DEDD50094DB58 /* image-with-depth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A892BED215DEDD50094DB58 /* image-with-depth.jpg */; };
+		AB7EC7D25C866BA02A7ED823 /* Pods_DepthFromCameraRoll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18FA7F1999D45680E8CED30 /* Pods_DepthFromCameraRoll.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041D62EA479D087E4B3131D8 /* Pods-DepthFromCameraRoll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DepthFromCameraRoll.release.xcconfig"; path = "Pods/Target Support Files/Pods-DepthFromCameraRoll/Pods-DepthFromCameraRoll.release.xcconfig"; sourceTree = "<group>"; };
+		8A892BC5215DEB520094DB58 /* DepthFromCameraRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepthFromCameraRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A892BC8215DEB520094DB58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A892BCA215DEB520094DB58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A892BCD215DEB520094DB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A892BCF215DEB520094DB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A892BD2215DEB520094DB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A892BD4215DEB520094DB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A892BDD215DEC480094DB58 /* AVDepthData+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVDepthData+Utils.swift"; sourceTree = "<group>"; };
+		8A892BE0215DEC480094DB58 /* CGImageSource+Depth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImageSource+Depth.swift"; sourceTree = "<group>"; };
+		8A892BE1215DEC480094DB58 /* PhotosUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosUtils.swift; sourceTree = "<group>"; };
+		8A892BE9215DEC840094DB58 /* UIImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
+		8A892BEC215DEDD50094DB58 /* image-with-matte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-with-matte.jpg"; sourceTree = "<group>"; };
+		8A892BED215DEDD50094DB58 /* image-with-depth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-with-depth.jpg"; sourceTree = "<group>"; };
+		A18FA7F1999D45680E8CED30 /* Pods_DepthFromCameraRoll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DepthFromCameraRoll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD9A881663F5EE0C3C90438 /* Pods-DepthFromCameraRoll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DepthFromCameraRoll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DepthFromCameraRoll/Pods-DepthFromCameraRoll.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A892BC2215DEB520094DB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7EC7D25C866BA02A7ED823 /* Pods_DepthFromCameraRoll.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A892BBC215DEB520094DB58 = {
+			isa = PBXGroup;
+			children = (
+				8A892BEB215DEDD50094DB58 /* Resources */,
+				8A892BDA215DEC480094DB58 /* Utils */,
+				8A892BC7215DEB520094DB58 /* DepthFromCameraRoll */,
+				8A892BC6215DEB520094DB58 /* Products */,
+				D0F29D3AFEF8BEC815EEBD48 /* Pods */,
+				FDD652E699E906953DDBB9D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A892BC6215DEB520094DB58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A892BC5215DEB520094DB58 /* DepthFromCameraRoll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A892BC7215DEB520094DB58 /* DepthFromCameraRoll */ = {
+			isa = PBXGroup;
+			children = (
+				8A892BD4215DEB520094DB58 /* Info.plist */,
+				8A892BCF215DEB520094DB58 /* Assets.xcassets */,
+				8A892BD1215DEB520094DB58 /* LaunchScreen.storyboard */,
+				8A892BCC215DEB520094DB58 /* Main.storyboard */,
+				8A892BC8215DEB520094DB58 /* AppDelegate.swift */,
+				8A892BCA215DEB520094DB58 /* ViewController.swift */,
+			);
+			path = DepthFromCameraRoll;
+			sourceTree = "<group>";
+		};
+		8A892BDA215DEC480094DB58 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A892BE9215DEC840094DB58 /* UIImage+Utils.swift */,
+				8A892BDD215DEC480094DB58 /* AVDepthData+Utils.swift */,
+				8A892BE0215DEC480094DB58 /* CGImageSource+Depth.swift */,
+				8A892BE1215DEC480094DB58 /* PhotosUtils.swift */,
+			);
+			name = Utils;
+			path = ../Utils;
+			sourceTree = "<group>";
+		};
+		8A892BEB215DEDD50094DB58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A892BEC215DEDD50094DB58 /* image-with-matte.jpg */,
+				8A892BED215DEDD50094DB58 /* image-with-depth.jpg */,
+			);
+			name = Resources;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		D0F29D3AFEF8BEC815EEBD48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFD9A881663F5EE0C3C90438 /* Pods-DepthFromCameraRoll.debug.xcconfig */,
+				041D62EA479D087E4B3131D8 /* Pods-DepthFromCameraRoll.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDD652E699E906953DDBB9D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A18FA7F1999D45680E8CED30 /* Pods_DepthFromCameraRoll.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A892BC4215DEB520094DB58 /* DepthFromCameraRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A892BD7215DEB520094DB58 /* Build configuration list for PBXNativeTarget "DepthFromCameraRoll" */;
+			buildPhases = (
+				7C83869C25EAF37207B967F4 /* [CP] Check Pods Manifest.lock */,
+				8A892BC1215DEB520094DB58 /* Sources */,
+				8A892BC2215DEB520094DB58 /* Frameworks */,
+				8A892BC3215DEB520094DB58 /* Resources */,
+				C9648309E73D8D3B60F59378 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DepthFromCameraRoll;
+			productName = DepthFromCameraRoll;
+			productReference = 8A892BC5215DEB520094DB58 /* DepthFromCameraRoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A892BBD215DEB520094DB58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Shuichi Tsutsumi";
+				TargetAttributes = {
+					8A892BC4215DEB520094DB58 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 8A892BC0215DEB520094DB58 /* Build configuration list for PBXProject "DepthFromCameraRoll" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A892BBC215DEB520094DB58;
+			productRefGroup = 8A892BC6215DEB520094DB58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A892BC4215DEB520094DB58 /* DepthFromCameraRoll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A892BC3215DEB520094DB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A892BD3215DEB520094DB58 /* LaunchScreen.storyboard in Resources */,
+				8A892BD0215DEB520094DB58 /* Assets.xcassets in Resources */,
+				8A892BCE215DEB520094DB58 /* Main.storyboard in Resources */,
+				8A892BEE215DEDD50094DB58 /* image-with-matte.jpg in Resources */,
+				8A892BEF215DEDD50094DB58 /* image-with-depth.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C83869C25EAF37207B967F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DepthFromCameraRoll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9648309E73D8D3B60F59378 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DepthFromCameraRoll/Pods-DepthFromCameraRoll-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CheckMarkView/CheckMarkView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftAssetsPickerController/SwiftAssetsPickerController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CheckMarkView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftAssetsPickerController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DepthFromCameraRoll/Pods-DepthFromCameraRoll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A892BC1215DEB520094DB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A892BCB215DEB520094DB58 /* ViewController.swift in Sources */,
+				8A892BE7215DEC480094DB58 /* CGImageSource+Depth.swift in Sources */,
+				8A892BE4215DEC480094DB58 /* AVDepthData+Utils.swift in Sources */,
+				8A892BE8215DEC480094DB58 /* PhotosUtils.swift in Sources */,
+				8A892BC9215DEB520094DB58 /* AppDelegate.swift in Sources */,
+				8A892BEA215DEC840094DB58 /* UIImage+Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A892BCC215DEB520094DB58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A892BCD215DEB520094DB58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A892BD1215DEB520094DB58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A892BD2215DEB520094DB58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A892BD5215DEB520094DB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A892BD6215DEB520094DB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A892BD8215DEB520094DB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD9A881663F5EE0C3C90438 /* Pods-DepthFromCameraRoll.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z86A4AWDE;
+				INFOPLIST_FILE = DepthFromCameraRoll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.DepthFromCameraRoll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A892BD9215DEB520094DB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041D62EA479D087E4B3131D8 /* Pods-DepthFromCameraRoll.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z86A4AWDE;
+				INFOPLIST_FILE = DepthFromCameraRoll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.DepthFromCameraRoll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A892BC0215DEB520094DB58 /* Build configuration list for PBXProject "DepthFromCameraRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A892BD5215DEB520094DB58 /* Debug */,
+				8A892BD6215DEB520094DB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A892BD7215DEB520094DB58 /* Build configuration list for PBXNativeTarget "DepthFromCameraRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A892BD8215DEB520094DB58 /* Debug */,
+				8A892BD9215DEB520094DB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A892BBD215DEB520094DB58 /* Project object */;
+}
