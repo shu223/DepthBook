@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         guard let device = sceneView.device else { fatalError("This device doesn't support Metal.") }
         mtkView.device = device
         mtkView.backgroundColor = UIColor.clear
+        mtkView.framebufferOnly = false
         mtkView.delegate = self
         renderer = MetalRenderer(metalDevice: device, renderDestination: mtkView)
         currentDrawableSize = mtkView.currentDrawable!.layer.drawableSize

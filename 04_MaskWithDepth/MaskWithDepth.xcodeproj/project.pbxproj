@@ -69,12 +69,12 @@
 		8A892C7B215E17120094DB58 /* MaskWithDepth */ = {
 			isa = PBXGroup;
 			children = (
-				8A892C7C215E17120094DB58 /* AppDelegate.swift */,
-				8A892C7E215E17120094DB58 /* ViewController.swift */,
-				8A892C80215E17120094DB58 /* Main.storyboard */,
+				8A892C88215E17130094DB58 /* Info.plist */,
 				8A892C83215E17130094DB58 /* Assets.xcassets */,
 				8A892C85215E17130094DB58 /* LaunchScreen.storyboard */,
-				8A892C88215E17130094DB58 /* Info.plist */,
+				8A892C80215E17120094DB58 /* Main.storyboard */,
+				8A892C7C215E17120094DB58 /* AppDelegate.swift */,
+				8A892C7E215E17120094DB58 /* ViewController.swift */,
 			);
 			path = MaskWithDepth;
 			sourceTree = "<group>";

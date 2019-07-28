@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         let device = MTLCreateSystemDefaultDevice()!
         mtkView.device = device
         mtkView.backgroundColor = UIColor.clear
+        mtkView.framebufferOnly = false
         mtkView.delegate = self
         renderer = MetalRenderer(metalDevice: device, renderDestination: mtkView)
         currentDrawableSize = mtkView.currentDrawable!.layer.drawableSize
