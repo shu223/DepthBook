@@ -13,9 +13,7 @@
 		8A892C4E215E14350094DB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A892C4D215E14350094DB58 /* Assets.xcassets */; };
 		8A892C51215E14350094DB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A892C4F215E14350094DB58 /* LaunchScreen.storyboard */; };
 		8A892C5B215E15DB0094DB58 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892C59215E15DB0094DB58 /* MetalRenderer.swift */; };
-		8A892C5C215E15DB0094DB58 /* PassThrough.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8A892C5A215E15DB0094DB58 /* PassThrough.metal */; };
 		8A892C5E215E16210094DB58 /* TrackingState+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892C5D215E16210094DB58 /* TrackingState+Description.swift */; };
-		8A892C69215E16450094DB58 /* AVDepthData+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892C62215E16450094DB58 /* AVDepthData+Utils.swift */; };
 		8A892C6F215E16590094DB58 /* CVPixelBuffer+CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892C6E215E16590094DB58 /* CVPixelBuffer+CIImage.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,9 +26,7 @@
 		8A892C50215E14350094DB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A892C52215E14350094DB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A892C59215E15DB0094DB58 /* MetalRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
-		8A892C5A215E15DB0094DB58 /* PassThrough.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = PassThrough.metal; sourceTree = "<group>"; };
 		8A892C5D215E16210094DB58 /* TrackingState+Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TrackingState+Description.swift"; sourceTree = "<group>"; };
-		8A892C62215E16450094DB58 /* AVDepthData+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVDepthData+Utils.swift"; sourceTree = "<group>"; };
 		8A892C6E215E16590094DB58 /* CVPixelBuffer+CIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+CIImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				8A892C59215E15DB0094DB58 /* MetalRenderer.swift */,
-				8A892C5A215E15DB0094DB58 /* PassThrough.metal */,
 			);
 			name = Renderer;
 			path = ../Renderer;
@@ -91,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				8A892C6E215E16590094DB58 /* CVPixelBuffer+CIImage.swift */,
-				8A892C62215E16450094DB58 /* AVDepthData+Utils.swift */,
 			);
 			name = Utils;
 			path = ../Utils;
@@ -171,8 +165,6 @@
 			files = (
 				8A892C49215E14340094DB58 /* ViewController.swift in Sources */,
 				8A892C47215E14330094DB58 /* AppDelegate.swift in Sources */,
-				8A892C5C215E15DB0094DB58 /* PassThrough.metal in Sources */,
-				8A892C69215E16450094DB58 /* AVDepthData+Utils.swift in Sources */,
 				8A892C6F215E16590094DB58 /* CVPixelBuffer+CIImage.swift in Sources */,
 				8A892C5B215E15DB0094DB58 /* MetalRenderer.swift in Sources */,
 				8A892C5E215E16210094DB58 /* TrackingState+Description.swift in Sources */,

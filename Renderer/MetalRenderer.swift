@@ -26,7 +26,6 @@ class MetalRenderer {
     
     private var commandQueue: MTLCommandQueue!
     private var vertexBuffer: MTLBuffer!
-    private var passThroughPipeline: MTLRenderPipelineState!
     
     init(metalDevice device: MTLDevice, renderDestination: MTKView) {
         self.device = device
@@ -37,9 +36,7 @@ class MetalRenderer {
         self.renderDestination.sampleCount = 1
         
         commandQueue = device.makeCommandQueue()
-        
-        prepareRenderPipelines(library: device.makeDefaultLibrary()!)
-        
+                
         // prepare vertex buffer(s)
         let imagePlaneVertexDataCount = kImagePlaneVertexData.count * MemoryLayout<Float>.size
         vertexBuffer = device.makeBuffer(bytes: kImagePlaneVertexData, length: imagePlaneVertexDataCount, options: [])
@@ -72,71 +69,5 @@ class MetalRenderer {
         
         commandBuffer.present(currentDrawable)
         commandBuffer.commit()
-    }
-
-    // MARK: - Private
-    
-    // Create render pipeline states
-    private func prepareRenderPipelines(library: MTLLibrary) {
-        let passThroughVertexFunction = library.passThroughVertexFunction
-        let passThroughFragmentFunction = library.passThroughFragmentFunction
-        
-        // Create a vertex descriptor for our image plane vertex buffer
-        let imagePlaneVertexDescriptor = MTLVertexDescriptor()
-        
-        // Positions.
-        imagePlaneVertexDescriptor.attributes[0].format = .float2
-        imagePlaneVertexDescriptor.attributes[0].offset = 0
-        imagePlaneVertexDescriptor.attributes[0].bufferIndex = 0
-
-        // Texture coordinates.
-        imagePlaneVertexDescriptor.attributes[1].format = .float2
-        imagePlaneVertexDescriptor.attributes[1].offset = 8
-        imagePlaneVertexDescriptor.attributes[1].bufferIndex = 0
-        
-        // Buffer Layout
-        imagePlaneVertexDescriptor.layouts[0].stride = 16
-        imagePlaneVertexDescriptor.layouts[0].stepRate = 1
-        imagePlaneVertexDescriptor.layouts[0].stepFunction = .perVertex
-        
-        let createPipeline = { (fragmentFunction: MTLFunction, sampleCount: Int?, pixelFormat: MTLPixelFormat) -> MTLRenderPipelineState in
-            let pipelineDescriptor = MTLRenderPipelineDescriptor()
-            if let sampleCount = sampleCount {
-                pipelineDescriptor.sampleCount = sampleCount
-            }
-            pipelineDescriptor.vertexFunction = passThroughVertexFunction
-            pipelineDescriptor.fragmentFunction = fragmentFunction
-            pipelineDescriptor.vertexDescriptor = imagePlaneVertexDescriptor
-            pipelineDescriptor.colorAttachments[0].pixelFormat = pixelFormat
-//            pipelineDescriptor.depthAttachmentPixelFormat = MTLPixelFormat.depth32Float
-            return try! self.device.makeRenderPipelineState(descriptor: pipelineDescriptor)
-        }
-        
-        passThroughPipeline   = createPipeline(passThroughFragmentFunction, renderDestination.sampleCount, renderDestination.colorPixelFormat)
-    }
-}
-
-extension MTLLibrary {
-    
-    var passThroughVertexFunction: MTLFunction {
-        return makeFunction(name: "passThroughVertex")!
-    }
-    
-    var passThroughFragmentFunction: MTLFunction {
-        return makeFunction(name: "passThroughFragment")!
-    }
-}
-
-extension MTLRenderCommandEncoder {
-    
-    func encode(renderPipeline: MTLRenderPipelineState, vertexBuffer: MTLBuffer, textures: [MTLTexture]) {
-        setRenderPipelineState(renderPipeline)
-        setVertexBuffer(vertexBuffer, offset: 0, index: 0)
-        var index: Int = 0
-        textures.forEach { (texture) in
-            setFragmentTexture(texture, index: index)
-            index += 1
-        }
-        drawPrimitives(type: .triangleStrip, vertexStart: 0, vertexCount: 4)
     }
 }
