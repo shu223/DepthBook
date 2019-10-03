@@ -7,154 +7,147 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05258031CACCD32A2583F5E6C75F62BF /* CheckMarkView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E887D20F9B036F422A31F5BE9E986F71 /* CheckMarkView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EB39A55A2F143C1C60677466289FEA9 /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478EC01291A0EC560F154A6529749A5 /* CheckMarkView.swift */; };
-		29FE1E89D82C7D93DAA965375411291D /* video-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6453E0B4BA083A5057CBA9490854D340 /* video-icon.png */; };
-		380D8A9E5663A9B7BF393AE4675AC84B /* CheckMarkView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC0785A9ED4F46F6E3826EB3F9B245F /* CheckMarkView.framework */; };
-		594053A4AE2A36A30F8EA9C20E4E2066 /* SwiftAssetsPickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B853B77B78B6CFCCEBB94BDD8C1195F /* SwiftAssetsPickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C24FB2B83C5CDE5CBAD263330FB0F2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE880D3B72F2D103CF26CD96E7E37C23 /* Foundation.framework */; };
-		6D29CD981802FB09DB2983C7E43F907D /* CheckMarkView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F692FD4D7E715FD91E74BD93E3BF8C /* CheckMarkView-dummy.m */; };
-		7C89B731496742A119557BEDF3511799 /* Pods-DepthFromCameraRoll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 597C9C14B3478EFE09E745C48FE0E477 /* Pods-DepthFromCameraRoll-dummy.m */; };
-		931FDB820523D2EC2DEF39EC838ABD25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE880D3B72F2D103CF26CD96E7E37C23 /* Foundation.framework */; };
-		9CE33B3395AD65C2029F126A35F36D52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE880D3B72F2D103CF26CD96E7E37C23 /* Foundation.framework */; };
-		9E5F67029DF9F7E78DB84B0958220830 /* panorama-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C2462E007F44DD4DBAB03222B9817E /* panorama-icon.png */; };
-		B84267F05B615F704791C39D2646174D /* AssetsPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F514CD84E8A6D3DC11114DE2EB2C069 /* AssetsPickerController.swift */; };
-		C2ABEFC0F5BF3522A111F6C9FEB25A64 /* SwiftAssetsPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCD9E6CBF16CA2C29F6ACFD4278B618 /* SwiftAssetsPickerController-dummy.m */; };
-		C497E18435A5319D4DEE1BB5ACAD7361 /* AssetsPickerGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A8300F4BB1D9635365F81CAB716BC /* AssetsPickerGridController.swift */; };
-		C9BD4DF4333765AA844E4FDC16BD9F0A /* timelapse-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F5131EDCAF491D99936CA55F8F46D53C /* timelapse-icon.png */; };
-		D54D11CFA124E109AA38AA1E115994DC /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A9D5B0A19844CC0A065ACC526D496FAF /* Base.lproj */; };
-		DE16413B39AE665B52A63A984D6952FF /* Pods-DepthFromCameraRoll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2015BE1F540F0900B1B7CFFAD374EDDD /* Pods-DepthFromCameraRoll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E21C03B4E1BEB917C06BF47A1ABF3FD4 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 09893DB68E19CB72088085693734BA95 /* en.lproj */; };
+		03DD8FED31C477EF08361985217AB814 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59947D72365916E4F337781A163E780 /* Foundation.framework */; };
+		0762102234D463556B26231C0331C8A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59947D72365916E4F337781A163E780 /* Foundation.framework */; };
+		0DEAE1BE16EE03A57F8146742F97D6E8 /* AssetsPickerGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A8300F4BB1D9635365F81CAB716BC /* AssetsPickerGridController.swift */; };
+		1D3CEBC867511752B9574D0A10FA123E /* timelapse-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A2C575905403D9CAD3149C463F6E9C88 /* timelapse-icon.png */; };
+		2414C26AACEF27592BF417801DDF2F3F /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478EC01291A0EC560F154A6529749A5 /* CheckMarkView.swift */; };
+		29564B9906672A9FB2E7990A350250AD /* CheckMarkView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8513F8C38A154C8958C11D838ECAFE7B /* CheckMarkView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C962E1A068D33FD44E2C01C1C9C5476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59947D72365916E4F337781A163E780 /* Foundation.framework */; };
+		5102150114D1E67EFD7DFCEAB47CCFC0 /* AssetsPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F514CD84E8A6D3DC11114DE2EB2C069 /* AssetsPickerController.swift */; };
+		5C5DD22F6C7F9AF1CADC3C1C72217277 /* CheckMarkView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A3D09E5E1E91A08725676F424A429 /* CheckMarkView-dummy.m */; };
+		6FFA8DF49385A21DF50389C6306163C5 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 899BC7A799148D70B90F7F0D4488D103 /* Base.lproj */; };
+		8532649D24BDBA81FE34A4D9E6B6D23B /* SwiftAssetsPickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 528E6A45DEC54FF04C8CC3272A164246 /* SwiftAssetsPickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94476CA393F129F40F31AFF1869ED41E /* video-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7CBD6BF4F7DF0B6D28D2227CD2925B8 /* video-icon.png */; };
+		A933037BA9BCF3660391B3E09391093D /* Pods-DepthFromCameraRoll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C762CB044F3AA746F1244E45D4DC0A3C /* Pods-DepthFromCameraRoll-dummy.m */; };
+		A98D1744613F2B3C1AE5DC3F2782F970 /* Pods-DepthFromCameraRoll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3251466FCCFE3ABE278B5B07EBFC236C /* Pods-DepthFromCameraRoll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C42EFAA88A689994F52DD69D14A609E3 /* panorama-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C17484AEBD315D209A7A36869AEC2A0E /* panorama-icon.png */; };
+		C7A103E1931EF1E882C9901D39500C30 /* CheckMarkView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F950F9DD5CE5725A2B0FBCD103B2396 /* CheckMarkView.framework */; };
+		D4CEE97DF221B85471226B8B1DDA5992 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 38CDFEA82DC87F0170BD3C30A186B9A2 /* en.lproj */; };
+		D92C5F4EC8A45A6E76BB177539D68BFE /* SwiftAssetsPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B988DC5ED0224FFCE9631BDAE20189E /* SwiftAssetsPickerController-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		57DD5745E74E5752CB35A6AB1FFA4412 /* PBXContainerItemProxy */ = {
+		5F02D1C80FCDDAA621C6BE06765C5045 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6994EF1DB6516853B64F822B594D2553;
+			remoteGlobalIDString = 00F7E26D53F57EF2BAE3FDCD21AB2A69;
 			remoteInfo = CheckMarkView;
 		};
-		B37D6EDD2BE35EF0B7949000C5090766 /* PBXContainerItemProxy */ = {
+		693CE678274F5BCEE465A30B81362913 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6994EF1DB6516853B64F822B594D2553;
+			remoteGlobalIDString = 00F7E26D53F57EF2BAE3FDCD21AB2A69;
 			remoteInfo = CheckMarkView;
 		};
-		DD79320BC69B518FC50787BBA92A659B /* PBXContainerItemProxy */ = {
+		F501AA070F1C557A203F0D6E86A998B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CDBCCF6607A2DAD946C1A6A23B587901;
+			remoteGlobalIDString = E5FA193ECDC1A8A0C62D0DD2EA89E422;
 			remoteInfo = SwiftAssetsPickerController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09893DB68E19CB72088085693734BA95 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = SwiftAssetsPickerController/Resources/en.lproj; sourceTree = "<group>"; };
-		0B853B77B78B6CFCCEBB94BDD8C1195F /* SwiftAssetsPickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAssetsPickerController-umbrella.h"; sourceTree = "<group>"; };
-		2015BE1F540F0900B1B7CFFAD374EDDD /* Pods-DepthFromCameraRoll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DepthFromCameraRoll-umbrella.h"; sourceTree = "<group>"; };
-		20EA121A2755F60B2791F0F04333D21E /* Pods-DepthFromCameraRoll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DepthFromCameraRoll.modulemap"; sourceTree = "<group>"; };
-		2B10BC631F12F814B03C9DB87F49CF59 /* CheckMarkView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CheckMarkView-Info.plist"; sourceTree = "<group>"; };
-		3187C4076CB8A9EF506658220A636F80 /* SwiftAssetsPickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftAssetsPickerController.framework; path = SwiftAssetsPickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31EE2F5393CB019C27AD12E4E9D27D16 /* Pods-DepthFromCameraRoll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DepthFromCameraRoll.debug.xcconfig"; sourceTree = "<group>"; };
-		331676DABD21CF1D3EC78B6DE05979FE /* SwiftAssetsPickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftAssetsPickerController-Info.plist"; sourceTree = "<group>"; };
-		39F468DB829F9E36107FAA84CFFA64D0 /* Pods-DepthFromCameraRoll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DepthFromCameraRoll.release.xcconfig"; sourceTree = "<group>"; };
-		413D195A9CF3C7A7A814A3661174E60B /* SwiftAssetsPickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAssetsPickerController.modulemap; sourceTree = "<group>"; };
+		0FC51FD7AF946AF3963EF42E53EB8466 /* Pods_DepthFromCameraRoll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DepthFromCameraRoll.framework; path = "Pods-DepthFromCameraRoll.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EBE2805C70E0DE30AF4D398CBCA54A /* SwiftAssetsPickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftAssetsPickerController.framework; path = SwiftAssetsPickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2701E3BE543E5DFBE5C4F7F21592B125 /* Pods-DepthFromCameraRoll-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DepthFromCameraRoll-Info.plist"; sourceTree = "<group>"; };
+		299472EF6F9EE554B236C17276D7E9C6 /* CheckMarkView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CheckMarkView-Info.plist"; sourceTree = "<group>"; };
+		3251466FCCFE3ABE278B5B07EBFC236C /* Pods-DepthFromCameraRoll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DepthFromCameraRoll-umbrella.h"; sourceTree = "<group>"; };
+		3300E8AEA28B17DDC39362BEB487FB8B /* CheckMarkView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-prefix.pch"; sourceTree = "<group>"; };
+		38CDFEA82DC87F0170BD3C30A186B9A2 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = SwiftAssetsPickerController/Resources/en.lproj; sourceTree = "<group>"; };
 		495A8300F4BB1D9635365F81CAB716BC /* AssetsPickerGridController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetsPickerGridController.swift; path = SwiftAssetsPickerController/Sources/AssetsPickerGridController.swift; sourceTree = "<group>"; };
-		597C9C14B3478EFE09E745C48FE0E477 /* Pods-DepthFromCameraRoll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DepthFromCameraRoll-dummy.m"; sourceTree = "<group>"; };
-		5DABEA531536C220D29F08D58E76F198 /* Pods-DepthFromCameraRoll-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DepthFromCameraRoll-Info.plist"; sourceTree = "<group>"; };
-		63F692FD4D7E715FD91E74BD93E3BF8C /* CheckMarkView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CheckMarkView-dummy.m"; sourceTree = "<group>"; };
-		6453E0B4BA083A5057CBA9490854D340 /* video-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video-icon.png"; path = "SwiftAssetsPickerController/Resources/video-icon.png"; sourceTree = "<group>"; };
-		6568C3864651ED1F6DE476BC9310634E /* CheckMarkView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-prefix.pch"; sourceTree = "<group>"; };
-		72ABEB832403BA5932F802E4A6077F4D /* Pods-DepthFromCameraRoll-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DepthFromCameraRoll-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A1ECAEF093E52AD359D90C838A13F60 /* Pods-DepthFromCameraRoll-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DepthFromCameraRoll-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B2133E55E8E3CB064A79DCB027FB9BF /* SwiftAssetsPickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAssetsPickerController.xcconfig; sourceTree = "<group>"; };
+		4B33B0EAEA970C4A8BE2F34820C3A4C9 /* CheckMarkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CheckMarkView.framework; path = CheckMarkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9EB8B9263C3EF75502796BEF923E37 /* Pods-DepthFromCameraRoll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DepthFromCameraRoll.modulemap"; sourceTree = "<group>"; };
+		528E6A45DEC54FF04C8CC3272A164246 /* SwiftAssetsPickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAssetsPickerController-umbrella.h"; sourceTree = "<group>"; };
+		531FD697747AEBEDA5B5970CDB7794E8 /* CheckMarkView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CheckMarkView.modulemap; sourceTree = "<group>"; };
+		632CDB967C31755B3831CB8603424685 /* Pods-DepthFromCameraRoll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DepthFromCameraRoll.debug.xcconfig"; sourceTree = "<group>"; };
+		65DFF729F8545F744D06E05383BA88F5 /* SwiftAssetsPickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftAssetsPickerController-Info.plist"; sourceTree = "<group>"; };
+		6A5A3D09E5E1E91A08725676F424A429 /* CheckMarkView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CheckMarkView-dummy.m"; sourceTree = "<group>"; };
+		6F950F9DD5CE5725A2B0FBCD103B2396 /* CheckMarkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CheckMarkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B988DC5ED0224FFCE9631BDAE20189E /* SwiftAssetsPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAssetsPickerController-dummy.m"; sourceTree = "<group>"; };
 		8478EC01291A0EC560F154A6529749A5 /* CheckMarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckMarkView.swift; path = CheckMarkView/Sources/CheckMarkView.swift; sourceTree = "<group>"; };
-		893DB4CE90DAA8F2DBC5EA6B38253B78 /* CheckMarkView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CheckMarkView.modulemap; sourceTree = "<group>"; };
-		8C35525B74E22399FE97E6F748287C11 /* Pods-DepthFromCameraRoll-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DepthFromCameraRoll-frameworks.sh"; sourceTree = "<group>"; };
+		8513F8C38A154C8958C11D838ECAFE7B /* CheckMarkView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-umbrella.h"; sourceTree = "<group>"; };
+		899BC7A799148D70B90F7F0D4488D103 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = SwiftAssetsPickerController/Resources/Base.lproj; sourceTree = "<group>"; };
 		8F514CD84E8A6D3DC11114DE2EB2C069 /* AssetsPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetsPickerController.swift; path = SwiftAssetsPickerController/Sources/AssetsPickerController.swift; sourceTree = "<group>"; };
-		9493A7CCE2D4000262320E6CFF370F9B /* SwiftAssetsPickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAssetsPickerController-prefix.pch"; sourceTree = "<group>"; };
+		9A7F74E9AF8F9FFCEFE5F2B17F8AEE04 /* Pods-DepthFromCameraRoll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DepthFromCameraRoll.release.xcconfig"; sourceTree = "<group>"; };
+		9ADFA77D33E447BF18D467ECD6C80B5B /* SwiftAssetsPickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAssetsPickerController-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A892D56760BC172CAD1C6576E4D97228 /* Pods-DepthFromCameraRoll-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DepthFromCameraRoll-acknowledgements.plist"; sourceTree = "<group>"; };
-		A9D5B0A19844CC0A065ACC526D496FAF /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = SwiftAssetsPickerController/Resources/Base.lproj; sourceTree = "<group>"; };
-		B026111468864701D3C18F9F6E557100 /* CheckMarkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CheckMarkView.framework; path = CheckMarkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D750421EF96BDB6788B615B84BEAC2D0 /* CheckMarkView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CheckMarkView.xcconfig; sourceTree = "<group>"; };
-		E887D20F9B036F422A31F5BE9E986F71 /* CheckMarkView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-umbrella.h"; sourceTree = "<group>"; };
-		EE64CF6CEB7B7699E7640F98A9C70FE5 /* Pods_DepthFromCameraRoll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DepthFromCameraRoll.framework; path = "Pods-DepthFromCameraRoll.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5131EDCAF491D99936CA55F8F46D53C /* timelapse-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "timelapse-icon.png"; path = "SwiftAssetsPickerController/Resources/timelapse-icon.png"; sourceTree = "<group>"; };
-		F5C2462E007F44DD4DBAB03222B9817E /* panorama-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "panorama-icon.png"; path = "SwiftAssetsPickerController/Resources/panorama-icon.png"; sourceTree = "<group>"; };
-		FDCD9E6CBF16CA2C29F6ACFD4278B618 /* SwiftAssetsPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAssetsPickerController-dummy.m"; sourceTree = "<group>"; };
-		FE0DC9BA519DAC537CDFDBF89C499D04 /* SwiftAssetsPickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAssetsPickerController.xcconfig; sourceTree = "<group>"; };
-		FE880D3B72F2D103CF26CD96E7E37C23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FFC0785A9ED4F46F6E3826EB3F9B245F /* CheckMarkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CheckMarkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C575905403D9CAD3149C463F6E9C88 /* timelapse-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "timelapse-icon.png"; path = "SwiftAssetsPickerController/Resources/timelapse-icon.png"; sourceTree = "<group>"; };
+		B9F422ADED020C392397AB7A6BE17D3C /* SwiftAssetsPickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAssetsPickerController.modulemap; sourceTree = "<group>"; };
+		C17484AEBD315D209A7A36869AEC2A0E /* panorama-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "panorama-icon.png"; path = "SwiftAssetsPickerController/Resources/panorama-icon.png"; sourceTree = "<group>"; };
+		C762CB044F3AA746F1244E45D4DC0A3C /* Pods-DepthFromCameraRoll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DepthFromCameraRoll-dummy.m"; sourceTree = "<group>"; };
+		C7CBD6BF4F7DF0B6D28D2227CD2925B8 /* video-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video-icon.png"; path = "SwiftAssetsPickerController/Resources/video-icon.png"; sourceTree = "<group>"; };
+		E59947D72365916E4F337781A163E780 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F3EA20B173E28B0B840DB6FF18AC1EEF /* Pods-DepthFromCameraRoll-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DepthFromCameraRoll-frameworks.sh"; sourceTree = "<group>"; };
+		F992D500B8D7FEA923C363215197B8CF /* Pods-DepthFromCameraRoll-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DepthFromCameraRoll-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB9D88706235C87A664C7A1B1861AA1A /* CheckMarkView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CheckMarkView.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		33E27E6ECB8353285A4A466F3EECC043 /* Frameworks */ = {
+		1E7F2EB51C039C44E0AC9D9177CF381E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CE33B3395AD65C2029F126A35F36D52 /* Foundation.framework in Frameworks */,
+				0762102234D463556B26231C0331C8A8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39FAE7EE2F37EE13272FD769F38F928D /* Frameworks */ = {
+		5FB4E0E01EACBB7938E34E81DE31D487 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				380D8A9E5663A9B7BF393AE4675AC84B /* CheckMarkView.framework in Frameworks */,
-				931FDB820523D2EC2DEF39EC838ABD25 /* Foundation.framework in Frameworks */,
+				C7A103E1931EF1E882C9901D39500C30 /* CheckMarkView.framework in Frameworks */,
+				3C962E1A068D33FD44E2C01C1C9C5476 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD8344E42C2A3D7AC22878C8EBBE4F91 /* Frameworks */ = {
+		747570FA0CB7CDDF386775C615C87A70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C24FB2B83C5CDE5CBAD263330FB0F2B /* Foundation.framework in Frameworks */,
+				03DD8FED31C477EF08361985217AB814 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1306CD4BEF5AC6E3D1BEDB3B723795B1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B026111468864701D3C18F9F6E557100 /* CheckMarkView.framework */,
-				EE64CF6CEB7B7699E7640F98A9C70FE5 /* Pods_DepthFromCameraRoll.framework */,
-				3187C4076CB8A9EF506658220A636F80 /* SwiftAssetsPickerController.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		22769B7553ACD3CC707CB98C2EA0777B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F096E1B5296C2D3BFC53D038567B7F76 /* Pods-DepthFromCameraRoll */,
+				2FFFD2933BA97A47A0E59C2846F9DB71 /* Pods-DepthFromCameraRoll */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2394DCBCDFDC3DC3AEF695FE53DDD403 /* Support Files */ = {
+		2FFFD2933BA97A47A0E59C2846F9DB71 /* Pods-DepthFromCameraRoll */ = {
 			isa = PBXGroup;
 			children = (
-				893DB4CE90DAA8F2DBC5EA6B38253B78 /* CheckMarkView.modulemap */,
-				D750421EF96BDB6788B615B84BEAC2D0 /* CheckMarkView.xcconfig */,
-				63F692FD4D7E715FD91E74BD93E3BF8C /* CheckMarkView-dummy.m */,
-				2B10BC631F12F814B03C9DB87F49CF59 /* CheckMarkView-Info.plist */,
-				6568C3864651ED1F6DE476BC9310634E /* CheckMarkView-prefix.pch */,
-				E887D20F9B036F422A31F5BE9E986F71 /* CheckMarkView-umbrella.h */,
+				4D9EB8B9263C3EF75502796BEF923E37 /* Pods-DepthFromCameraRoll.modulemap */,
+				4A1ECAEF093E52AD359D90C838A13F60 /* Pods-DepthFromCameraRoll-acknowledgements.markdown */,
+				F992D500B8D7FEA923C363215197B8CF /* Pods-DepthFromCameraRoll-acknowledgements.plist */,
+				C762CB044F3AA746F1244E45D4DC0A3C /* Pods-DepthFromCameraRoll-dummy.m */,
+				F3EA20B173E28B0B840DB6FF18AC1EEF /* Pods-DepthFromCameraRoll-frameworks.sh */,
+				2701E3BE543E5DFBE5C4F7F21592B125 /* Pods-DepthFromCameraRoll-Info.plist */,
+				3251466FCCFE3ABE278B5B07EBFC236C /* Pods-DepthFromCameraRoll-umbrella.h */,
+				632CDB967C31755B3831CB8603424685 /* Pods-DepthFromCameraRoll.debug.xcconfig */,
+				9A7F74E9AF8F9FFCEFE5F2B17F8AEE04 /* Pods-DepthFromCameraRoll.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CheckMarkView";
+			name = "Pods-DepthFromCameraRoll";
+			path = "Target Support Files/Pods-DepthFromCameraRoll";
 			sourceTree = "<group>";
 		};
-		34AFAE8F8B8011D01E56187B5EA8EC23 /* Frameworks */ = {
+		5C9BD753DB22BB670EE05D46A6173E63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FFC0785A9ED4F46F6E3826EB3F9B245F /* CheckMarkView.framework */,
-				DA81DC81B8A9F65E472BACF16901A499 /* iOS */,
+				6F950F9DD5CE5725A2B0FBCD103B2396 /* CheckMarkView.framework */,
+				E2400505CC1CBDAAEAA03EBB6D67C8F9 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,19 +165,45 @@
 			isa = PBXGroup;
 			children = (
 				8478EC01291A0EC560F154A6529749A5 /* CheckMarkView.swift */,
-				2394DCBCDFDC3DC3AEF695FE53DDD403 /* Support Files */,
+				BC03581551F4BAB5079CB61A5494B89E /* Support Files */,
 			);
 			name = CheckMarkView;
 			path = CheckMarkView;
+			sourceTree = "<group>";
+		};
+		BC03581551F4BAB5079CB61A5494B89E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				531FD697747AEBEDA5B5970CDB7794E8 /* CheckMarkView.modulemap */,
+				FB9D88706235C87A664C7A1B1861AA1A /* CheckMarkView.xcconfig */,
+				6A5A3D09E5E1E91A08725676F424A429 /* CheckMarkView-dummy.m */,
+				299472EF6F9EE554B236C17276D7E9C6 /* CheckMarkView-Info.plist */,
+				3300E8AEA28B17DDC39362BEB487FB8B /* CheckMarkView-prefix.pch */,
+				8513F8C38A154C8958C11D838ECAFE7B /* CheckMarkView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CheckMarkView";
+			sourceTree = "<group>";
+		};
+		C004B7B94BC1DFAEA16C4F98133C873C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				899BC7A799148D70B90F7F0D4488D103 /* Base.lproj */,
+				38CDFEA82DC87F0170BD3C30A186B9A2 /* en.lproj */,
+				C17484AEBD315D209A7A36869AEC2A0E /* panorama-icon.png */,
+				A2C575905403D9CAD3149C463F6E9C88 /* timelapse-icon.png */,
+				C7CBD6BF4F7DF0B6D28D2227CD2925B8 /* video-icon.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				34AFAE8F8B8011D01E56187B5EA8EC23 /* Frameworks */,
+				5C9BD753DB22BB670EE05D46A6173E63 /* Frameworks */,
 				8D2EBBE56F043D3A607B0DA2EAC6D742 /* Pods */,
-				1306CD4BEF5AC6E3D1BEDB3B723795B1 /* Products */,
+				DD0B5493F7E76A256C97EB5210226C70 /* Products */,
 				22769B7553ACD3CC707CB98C2EA0777B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -194,59 +213,40 @@
 			children = (
 				8F514CD84E8A6D3DC11114DE2EB2C069 /* AssetsPickerController.swift */,
 				495A8300F4BB1D9635365F81CAB716BC /* AssetsPickerGridController.swift */,
-				EA0143EC4209BDA662663F52421FB4A8 /* Resources */,
-				F38D973820EAD890DA88C8E907619683 /* Support Files */,
+				C004B7B94BC1DFAEA16C4F98133C873C /* Resources */,
+				EFE2401E0B7C0C20D774DA122492B4CC /* Support Files */,
 			);
 			name = SwiftAssetsPickerController;
 			path = SwiftAssetsPickerController;
 			sourceTree = "<group>";
 		};
-		DA81DC81B8A9F65E472BACF16901A499 /* iOS */ = {
+		DD0B5493F7E76A256C97EB5210226C70 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE880D3B72F2D103CF26CD96E7E37C23 /* Foundation.framework */,
+				4B33B0EAEA970C4A8BE2F34820C3A4C9 /* CheckMarkView.framework */,
+				0FC51FD7AF946AF3963EF42E53EB8466 /* Pods_DepthFromCameraRoll.framework */,
+				17EBE2805C70E0DE30AF4D398CBCA54A /* SwiftAssetsPickerController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2400505CC1CBDAAEAA03EBB6D67C8F9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E59947D72365916E4F337781A163E780 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EA0143EC4209BDA662663F52421FB4A8 /* Resources */ = {
+		EFE2401E0B7C0C20D774DA122492B4CC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A9D5B0A19844CC0A065ACC526D496FAF /* Base.lproj */,
-				09893DB68E19CB72088085693734BA95 /* en.lproj */,
-				F5C2462E007F44DD4DBAB03222B9817E /* panorama-icon.png */,
-				F5131EDCAF491D99936CA55F8F46D53C /* timelapse-icon.png */,
-				6453E0B4BA083A5057CBA9490854D340 /* video-icon.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		F096E1B5296C2D3BFC53D038567B7F76 /* Pods-DepthFromCameraRoll */ = {
-			isa = PBXGroup;
-			children = (
-				20EA121A2755F60B2791F0F04333D21E /* Pods-DepthFromCameraRoll.modulemap */,
-				72ABEB832403BA5932F802E4A6077F4D /* Pods-DepthFromCameraRoll-acknowledgements.markdown */,
-				A892D56760BC172CAD1C6576E4D97228 /* Pods-DepthFromCameraRoll-acknowledgements.plist */,
-				597C9C14B3478EFE09E745C48FE0E477 /* Pods-DepthFromCameraRoll-dummy.m */,
-				8C35525B74E22399FE97E6F748287C11 /* Pods-DepthFromCameraRoll-frameworks.sh */,
-				5DABEA531536C220D29F08D58E76F198 /* Pods-DepthFromCameraRoll-Info.plist */,
-				2015BE1F540F0900B1B7CFFAD374EDDD /* Pods-DepthFromCameraRoll-umbrella.h */,
-				31EE2F5393CB019C27AD12E4E9D27D16 /* Pods-DepthFromCameraRoll.debug.xcconfig */,
-				39F468DB829F9E36107FAA84CFFA64D0 /* Pods-DepthFromCameraRoll.release.xcconfig */,
-			);
-			name = "Pods-DepthFromCameraRoll";
-			path = "Target Support Files/Pods-DepthFromCameraRoll";
-			sourceTree = "<group>";
-		};
-		F38D973820EAD890DA88C8E907619683 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				413D195A9CF3C7A7A814A3661174E60B /* SwiftAssetsPickerController.modulemap */,
-				FE0DC9BA519DAC537CDFDBF89C499D04 /* SwiftAssetsPickerController.xcconfig */,
-				FDCD9E6CBF16CA2C29F6ACFD4278B618 /* SwiftAssetsPickerController-dummy.m */,
-				331676DABD21CF1D3EC78B6DE05979FE /* SwiftAssetsPickerController-Info.plist */,
-				9493A7CCE2D4000262320E6CFF370F9B /* SwiftAssetsPickerController-prefix.pch */,
-				0B853B77B78B6CFCCEBB94BDD8C1195F /* SwiftAssetsPickerController-umbrella.h */,
+				B9F422ADED020C392397AB7A6BE17D3C /* SwiftAssetsPickerController.modulemap */,
+				4B2133E55E8E3CB064A79DCB027FB9BF /* SwiftAssetsPickerController.xcconfig */,
+				7B988DC5ED0224FFCE9631BDAE20189E /* SwiftAssetsPickerController-dummy.m */,
+				65DFF729F8545F744D06E05383BA88F5 /* SwiftAssetsPickerController-Info.plist */,
+				9ADFA77D33E447BF18D467ECD6C80B5B /* SwiftAssetsPickerController-prefix.pch */,
+				528E6A45DEC54FF04C8CC3272A164246 /* SwiftAssetsPickerController-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftAssetsPickerController";
@@ -255,41 +255,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7A02E3E35209064690B1EFAC09E9991A /* Headers */ = {
+		2AEF2646B11D5680AE632449825CD8A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				594053A4AE2A36A30F8EA9C20E4E2066 /* SwiftAssetsPickerController-umbrella.h in Headers */,
+				A98D1744613F2B3C1AE5DC3F2782F970 /* Pods-DepthFromCameraRoll-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A51FD08C612265BCF57EB153555BC0C1 /* Headers */ = {
+		2C23E67C1F84CEB7C05C23FBFB1337A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05258031CACCD32A2583F5E6C75F62BF /* CheckMarkView-umbrella.h in Headers */,
+				29564B9906672A9FB2E7990A350250AD /* CheckMarkView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D13427065BE9F00049CE0AA5E85E2B8D /* Headers */ = {
+		2ED6C6D93D0327DFEE1ED6E96148F463 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE16413B39AE665B52A63A984D6952FF /* Pods-DepthFromCameraRoll-umbrella.h in Headers */,
+				8532649D24BDBA81FE34A4D9E6B6D23B /* SwiftAssetsPickerController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6994EF1DB6516853B64F822B594D2553 /* CheckMarkView */ = {
+		00F7E26D53F57EF2BAE3FDCD21AB2A69 /* CheckMarkView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DA06AACE3E1BB2D669C668922F1FFAA /* Build configuration list for PBXNativeTarget "CheckMarkView" */;
+			buildConfigurationList = B62C1257EC1E02C582A3C1698EE78E83 /* Build configuration list for PBXNativeTarget "CheckMarkView" */;
 			buildPhases = (
-				A51FD08C612265BCF57EB153555BC0C1 /* Headers */,
-				D404A9AF4B8E150FBED7DCD025D9F042 /* Sources */,
-				CD8344E42C2A3D7AC22878C8EBBE4F91 /* Frameworks */,
-				AE97ED2DE69247D727A2EA7EECF7606C /* Resources */,
+				2C23E67C1F84CEB7C05C23FBFB1337A2 /* Headers */,
+				31EAC1BA1E76B49F9A61976CB2AD0354 /* Sources */,
+				1E7F2EB51C039C44E0AC9D9177CF381E /* Frameworks */,
+				B569CC5FDFD879AA4ACACE40B268A8D5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -297,46 +297,46 @@
 			);
 			name = CheckMarkView;
 			productName = CheckMarkView;
-			productReference = B026111468864701D3C18F9F6E557100 /* CheckMarkView.framework */;
+			productReference = 4B33B0EAEA970C4A8BE2F34820C3A4C9 /* CheckMarkView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A360BF4417F00A9735596E9E284F9570 /* Pods-DepthFromCameraRoll */ = {
+		1D51EE9263EA8D20C6BDA55EDEE26215 /* Pods-DepthFromCameraRoll */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F2E1D1CCE7C6D06CB7B493FEF9F0D14 /* Build configuration list for PBXNativeTarget "Pods-DepthFromCameraRoll" */;
+			buildConfigurationList = 30EBEE435743B33073C1D17BC1BAA4C3 /* Build configuration list for PBXNativeTarget "Pods-DepthFromCameraRoll" */;
 			buildPhases = (
-				D13427065BE9F00049CE0AA5E85E2B8D /* Headers */,
-				874BC88DB32C43BD925D34055B6181ED /* Sources */,
-				33E27E6ECB8353285A4A466F3EECC043 /* Frameworks */,
-				8F72B6A84FF029B8A2DA017583798931 /* Resources */,
+				2AEF2646B11D5680AE632449825CD8A9 /* Headers */,
+				4BE4A49C04AA4861111D2E27A6313A2F /* Sources */,
+				747570FA0CB7CDDF386775C615C87A70 /* Frameworks */,
+				9ABD9DC14E944B2828D3377F09D702FC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B70D60C142A4CC7D47C40EE752DFD3B3 /* PBXTargetDependency */,
-				2E06533BBAD054537006C90687222B7C /* PBXTargetDependency */,
+				2F20C26D019EA1388B72EACD3794E659 /* PBXTargetDependency */,
+				7E0EC9265A94304075B7D202301EEA64 /* PBXTargetDependency */,
 			);
 			name = "Pods-DepthFromCameraRoll";
 			productName = "Pods-DepthFromCameraRoll";
-			productReference = EE64CF6CEB7B7699E7640F98A9C70FE5 /* Pods_DepthFromCameraRoll.framework */;
+			productReference = 0FC51FD7AF946AF3963EF42E53EB8466 /* Pods_DepthFromCameraRoll.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CDBCCF6607A2DAD946C1A6A23B587901 /* SwiftAssetsPickerController */ = {
+		E5FA193ECDC1A8A0C62D0DD2EA89E422 /* SwiftAssetsPickerController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4503186845A3B583CFF38455F5931E7F /* Build configuration list for PBXNativeTarget "SwiftAssetsPickerController" */;
+			buildConfigurationList = 9451E86B09BB5ABD82E9D19BD6919847 /* Build configuration list for PBXNativeTarget "SwiftAssetsPickerController" */;
 			buildPhases = (
-				7A02E3E35209064690B1EFAC09E9991A /* Headers */,
-				3F91B56F69ED3E1FB281FEB2B6F8E566 /* Sources */,
-				39FAE7EE2F37EE13272FD769F38F928D /* Frameworks */,
-				6A1D18BBB4A551968BE800FE6EA5FCE5 /* Resources */,
+				2ED6C6D93D0327DFEE1ED6E96148F463 /* Headers */,
+				EF1C5B5FE075AF1A075D8D0956F08B1D /* Sources */,
+				5FB4E0E01EACBB7938E34E81DE31D487 /* Frameworks */,
+				CBA597E4DEF771BEE925B739A40597BC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EF2B29D15F873C664106078CD3DD1C2C /* PBXTargetDependency */,
+				3826016A03AA16171EA73E71690A34E1 /* PBXTargetDependency */,
 			);
 			name = SwiftAssetsPickerController;
 			productName = SwiftAssetsPickerController;
-			productReference = 3187C4076CB8A9EF506658220A636F80 /* SwiftAssetsPickerController.framework */;
+			productReference = 17EBE2805C70E0DE30AF4D398CBCA54A /* SwiftAssetsPickerController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -345,112 +345,112 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1306CD4BEF5AC6E3D1BEDB3B723795B1 /* Products */;
+			productRefGroup = DD0B5493F7E76A256C97EB5210226C70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6994EF1DB6516853B64F822B594D2553 /* CheckMarkView */,
-				A360BF4417F00A9735596E9E284F9570 /* Pods-DepthFromCameraRoll */,
-				CDBCCF6607A2DAD946C1A6A23B587901 /* SwiftAssetsPickerController */,
+				00F7E26D53F57EF2BAE3FDCD21AB2A69 /* CheckMarkView */,
+				1D51EE9263EA8D20C6BDA55EDEE26215 /* Pods-DepthFromCameraRoll */,
+				E5FA193ECDC1A8A0C62D0DD2EA89E422 /* SwiftAssetsPickerController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6A1D18BBB4A551968BE800FE6EA5FCE5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D54D11CFA124E109AA38AA1E115994DC /* Base.lproj in Resources */,
-				E21C03B4E1BEB917C06BF47A1ABF3FD4 /* en.lproj in Resources */,
-				9E5F67029DF9F7E78DB84B0958220830 /* panorama-icon.png in Resources */,
-				C9BD4DF4333765AA844E4FDC16BD9F0A /* timelapse-icon.png in Resources */,
-				29FE1E89D82C7D93DAA965375411291D /* video-icon.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F72B6A84FF029B8A2DA017583798931 /* Resources */ = {
+		9ABD9DC14E944B2828D3377F09D702FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE97ED2DE69247D727A2EA7EECF7606C /* Resources */ = {
+		B569CC5FDFD879AA4ACACE40B268A8D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA597E4DEF771BEE925B739A40597BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFA8DF49385A21DF50389C6306163C5 /* Base.lproj in Resources */,
+				D4CEE97DF221B85471226B8B1DDA5992 /* en.lproj in Resources */,
+				C42EFAA88A689994F52DD69D14A609E3 /* panorama-icon.png in Resources */,
+				1D3CEBC867511752B9574D0A10FA123E /* timelapse-icon.png in Resources */,
+				94476CA393F129F40F31AFF1869ED41E /* video-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F91B56F69ED3E1FB281FEB2B6F8E566 /* Sources */ = {
+		31EAC1BA1E76B49F9A61976CB2AD0354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B84267F05B615F704791C39D2646174D /* AssetsPickerController.swift in Sources */,
-				C497E18435A5319D4DEE1BB5ACAD7361 /* AssetsPickerGridController.swift in Sources */,
-				C2ABEFC0F5BF3522A111F6C9FEB25A64 /* SwiftAssetsPickerController-dummy.m in Sources */,
+				5C5DD22F6C7F9AF1CADC3C1C72217277 /* CheckMarkView-dummy.m in Sources */,
+				2414C26AACEF27592BF417801DDF2F3F /* CheckMarkView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		874BC88DB32C43BD925D34055B6181ED /* Sources */ = {
+		4BE4A49C04AA4861111D2E27A6313A2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C89B731496742A119557BEDF3511799 /* Pods-DepthFromCameraRoll-dummy.m in Sources */,
+				A933037BA9BCF3660391B3E09391093D /* Pods-DepthFromCameraRoll-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D404A9AF4B8E150FBED7DCD025D9F042 /* Sources */ = {
+		EF1C5B5FE075AF1A075D8D0956F08B1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D29CD981802FB09DB2983C7E43F907D /* CheckMarkView-dummy.m in Sources */,
-				1EB39A55A2F143C1C60677466289FEA9 /* CheckMarkView.swift in Sources */,
+				5102150114D1E67EFD7DFCEAB47CCFC0 /* AssetsPickerController.swift in Sources */,
+				0DEAE1BE16EE03A57F8146742F97D6E8 /* AssetsPickerGridController.swift in Sources */,
+				D92C5F4EC8A45A6E76BB177539D68BFE /* SwiftAssetsPickerController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2E06533BBAD054537006C90687222B7C /* PBXTargetDependency */ = {
+		2F20C26D019EA1388B72EACD3794E659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CheckMarkView;
+			target = 00F7E26D53F57EF2BAE3FDCD21AB2A69 /* CheckMarkView */;
+			targetProxy = 693CE678274F5BCEE465A30B81362913 /* PBXContainerItemProxy */;
+		};
+		3826016A03AA16171EA73E71690A34E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CheckMarkView;
+			target = 00F7E26D53F57EF2BAE3FDCD21AB2A69 /* CheckMarkView */;
+			targetProxy = 5F02D1C80FCDDAA621C6BE06765C5045 /* PBXContainerItemProxy */;
+		};
+		7E0EC9265A94304075B7D202301EEA64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftAssetsPickerController;
-			target = CDBCCF6607A2DAD946C1A6A23B587901 /* SwiftAssetsPickerController */;
-			targetProxy = DD79320BC69B518FC50787BBA92A659B /* PBXContainerItemProxy */;
-		};
-		B70D60C142A4CC7D47C40EE752DFD3B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CheckMarkView;
-			target = 6994EF1DB6516853B64F822B594D2553 /* CheckMarkView */;
-			targetProxy = B37D6EDD2BE35EF0B7949000C5090766 /* PBXContainerItemProxy */;
-		};
-		EF2B29D15F873C664106078CD3DD1C2C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CheckMarkView;
-			target = 6994EF1DB6516853B64F822B594D2553 /* CheckMarkView */;
-			targetProxy = 57DD5745E74E5752CB35A6AB1FFA4412 /* PBXContainerItemProxy */;
+			target = E5FA193ECDC1A8A0C62D0DD2EA89E422 /* SwiftAssetsPickerController */;
+			targetProxy = F501AA070F1C557A203F0D6E86A998B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3F8092C7A6C0B9A39F94DD79F9BA30E9 /* Release */ = {
+		09E9B851DABBFE1ACD28F502AFA69CB3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39F468DB829F9E36107FAA84CFFA64D0 /* Pods-DepthFromCameraRoll.release.xcconfig */;
+			baseConfigurationReference = 9A7F74E9AF8F9FFCEFE5F2B17F8AEE04 /* Pods-DepthFromCameraRoll.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -488,7 +488,7 @@
 			};
 			name = Release;
 		};
-		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -543,14 +543,89 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		4E7B2EDC1B781C98F84B1A6F7AF8F8A8 /* Debug */ = {
+		3401F14F768171DEBB1B5D7B7A4C22CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D750421EF96BDB6788B615B84BEAC2D0 /* CheckMarkView.xcconfig */;
+			baseConfigurationReference = FB9D88706235C87A664C7A1B1861AA1A /* CheckMarkView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CheckMarkView/CheckMarkView-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Target Support Files/CheckMarkView/CheckMarkView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CheckMarkView/CheckMarkView.modulemap";
+				PRODUCT_MODULE_NAME = CheckMarkView;
+				PRODUCT_NAME = CheckMarkView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6508509DFCAFB6E44A284E75BFA5AB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2133E55E8E3CB064A79DCB027FB9BF /* SwiftAssetsPickerController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAssetsPickerController;
+				PRODUCT_NAME = SwiftAssetsPickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97E31C4B1CBBB9B718B73D8FF9B0BE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB9D88706235C87A664C7A1B1861AA1A /* CheckMarkView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -584,7 +659,44 @@
 			};
 			name = Debug;
 		};
-		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
+		9DE406AEC5289C74FC39C20EE5C2149D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2133E55E8E3CB064A79DCB027FB9BF /* SwiftAssetsPickerController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INFOPLIST_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAssetsPickerController;
+				PRODUCT_NAME = SwiftAssetsPickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -643,126 +755,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		CDB3F8FCD75383DEF217857136C8E3CD /* Release */ = {
+		FB066A3504B8F14F2C7EFC66C7673099 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE0DC9BA519DAC537CDFDBF89C499D04 /* SwiftAssetsPickerController.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-prefix.pch";
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController.modulemap";
-				PRODUCT_MODULE_NAME = SwiftAssetsPickerController;
-				PRODUCT_NAME = SwiftAssetsPickerController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F496C8E87A63A3B6F4FA315FB1A87E8B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE0DC9BA519DAC537CDFDBF89C499D04 /* SwiftAssetsPickerController.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-prefix.pch";
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftAssetsPickerController/SwiftAssetsPickerController.modulemap";
-				PRODUCT_MODULE_NAME = SwiftAssetsPickerController;
-				PRODUCT_NAME = SwiftAssetsPickerController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F551BE212BB966EC50CC18A0CDC04802 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D750421EF96BDB6788B615B84BEAC2D0 /* CheckMarkView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CheckMarkView/CheckMarkView-prefix.pch";
-				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
-				INFOPLIST_FILE = "Target Support Files/CheckMarkView/CheckMarkView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CheckMarkView/CheckMarkView.modulemap";
-				PRODUCT_MODULE_NAME = CheckMarkView;
-				PRODUCT_NAME = CheckMarkView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F8AFE8B3F1F6D18939BF815CA7B62C32 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31EE2F5393CB019C27AD12E4E9D27D16 /* Pods-DepthFromCameraRoll.debug.xcconfig */;
+			baseConfigurationReference = 632CDB967C31755B3831CB8603424685 /* Pods-DepthFromCameraRoll.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -802,20 +802,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DA06AACE3E1BB2D669C668922F1FFAA /* Build configuration list for PBXNativeTarget "CheckMarkView" */ = {
+		30EBEE435743B33073C1D17BC1BAA4C3 /* Build configuration list for PBXNativeTarget "Pods-DepthFromCameraRoll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E7B2EDC1B781C98F84B1A6F7AF8F8A8 /* Debug */,
-				F551BE212BB966EC50CC18A0CDC04802 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4503186845A3B583CFF38455F5931E7F /* Build configuration list for PBXNativeTarget "SwiftAssetsPickerController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F496C8E87A63A3B6F4FA315FB1A87E8B /* Debug */,
-				CDB3F8FCD75383DEF217857136C8E3CD /* Release */,
+				FB066A3504B8F14F2C7EFC66C7673099 /* Debug */,
+				09E9B851DABBFE1ACD28F502AFA69CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -823,17 +814,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
-				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F2E1D1CCE7C6D06CB7B493FEF9F0D14 /* Build configuration list for PBXNativeTarget "Pods-DepthFromCameraRoll" */ = {
+		9451E86B09BB5ABD82E9D19BD6919847 /* Build configuration list for PBXNativeTarget "SwiftAssetsPickerController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8AFE8B3F1F6D18939BF815CA7B62C32 /* Debug */,
-				3F8092C7A6C0B9A39F94DD79F9BA30E9 /* Release */,
+				9DE406AEC5289C74FC39C20EE5C2149D /* Debug */,
+				6508509DFCAFB6E44A284E75BFA5AB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62C1257EC1E02C582A3C1698EE78E83 /* Build configuration list for PBXNativeTarget "CheckMarkView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E31C4B1CBBB9B718B73D8FF9B0BE65 /* Debug */,
+				3401F14F768171DEBB1B5D7B7A4C22CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

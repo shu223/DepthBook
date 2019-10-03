@@ -17,7 +17,6 @@
 		8A892C94215E17DF0094DB58 /* AVCaptureDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892C91215E17DF0094DB58 /* AVCaptureDevice+Extension.swift */; };
 		8A892CA5215E18120094DB58 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892CA4215E18120094DB58 /* UIImage+Utils.swift */; };
 		8A892CA9215E18190094DB58 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892CA7215E18190094DB58 /* MetalRenderer.swift */; };
-		8A892CAA215E18190094DB58 /* PassThrough.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8A892CA8215E18190094DB58 /* PassThrough.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		8A892C91215E17DF0094DB58 /* AVCaptureDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Extension.swift"; sourceTree = "<group>"; };
 		8A892CA4215E18120094DB58 /* UIImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
 		8A892CA7215E18190094DB58 /* MetalRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
-		8A892CA8215E18190094DB58 /* PassThrough.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = PassThrough.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				8A892CA7215E18190094DB58 /* MetalRenderer.swift */,
-				8A892CA8215E18190094DB58 /* PassThrough.metal */,
 			);
 			name = Renderer;
 			path = ../Renderer;
@@ -183,7 +180,6 @@
 			files = (
 				8A892C93215E17DF0094DB58 /* VideoCapture.swift in Sources */,
 				8A892C7F215E17120094DB58 /* ViewController.swift in Sources */,
-				8A892CAA215E18190094DB58 /* PassThrough.metal in Sources */,
 				8A892CA9215E18190094DB58 /* MetalRenderer.swift in Sources */,
 				8A892C7D215E17120094DB58 /* AppDelegate.swift in Sources */,
 				8A892C94215E17DF0094DB58 /* AVCaptureDevice+Extension.swift in Sources */,
