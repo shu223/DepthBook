@@ -15,11 +15,10 @@ struct PointCloudVertex {
 
 @objc class PointCloud: NSObject {
     
-    var pointCloud : [SCNVector3] = []
+    var points: [SCNVector3] = []
     var colors: [UInt8] = []
     
     public func pointCloudNode() -> SCNNode {
-        let points = self.pointCloud
         var vertices = Array(repeating: PointCloudVertex(x: 0,y: 0,z: 0,r: 0,g: 0,b: 0), count: points.count)
         
         for i in 0...(points.count-1) {
