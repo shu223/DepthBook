@@ -101,18 +101,18 @@ class ViewController: UIViewController {
         intrinsics.columns.2[0] /= ratio
         intrinsics.columns.2[1] /= ratio
         
-        let pixelDataDepth: [Float32]
-        pixelDataDepth = depthPixelBuffer.grayPixelData()
+        let depthValues: [Float32] = depthPixelBuffer.grayPixelData()
         
-        return pixelDataDepth.enumerated().map {
-            let depth = Float($0.element)
+        return depthValues.enumerated().map {
+            let z = Float($0.element)
             let index = $0.offset
-            let x = Float(index % width)
-            let y = Float(index / width)
-            let xrw = (x - intrinsics.columns.2[0]) * depth / intrinsics.columns.0[0];
-            let yrw = (y - intrinsics.columns.2[1]) * depth / intrinsics.columns.1[1];
+            let u = Float(index % width)
+            let v = Float(index / width)
+            
+            let x = (u - intrinsics.columns.2[0]) * z / intrinsics.columns.0[0];
+            let y = (v - intrinsics.columns.2[1]) * z / intrinsics.columns.1[1];
 
-            return SCNVector3(xrw, yrw, depth)
+            return SCNVector3(x, y, z)
         }
     }
 
