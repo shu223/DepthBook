@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     private var pointCloud: PointCloud?
     private var pointCloudNode: SCNNode?
 
-    private let zCamera: Float = -0.3
+    private let zCamera: Float = -0.1
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -88,26 +88,22 @@ class ViewController: UIViewController {
         }
     }
     
-    private func convertRGBDtoXYZ(colorImage: CGImage, depthPixelBuffer: CVPixelBuffer, cameraCalibrationData: AVCameraCalibrationData) -> [SCNVector3] {
-
-        let width  = CVPixelBufferGetWidth(depthPixelBuffer)
+    private func convertRGBDtoXYZ(colorImage: CGImage, depthValues: [Float32], depthWidth: Int, cameraCalibrationData: AVCameraCalibrationData) -> [SCNVector3] {
 
         var intrinsics = cameraCalibrationData.intrinsicMatrix
         let referenceDimensions = cameraCalibrationData.intrinsicMatrixReferenceDimensions
 
-        let ratio = Float(referenceDimensions.width) / Float(width)
+        let ratio = Float(referenceDimensions.width) / Float(depthWidth)
         intrinsics.columns.0[0] /= ratio
         intrinsics.columns.1[1] /= ratio
         intrinsics.columns.2[0] /= ratio
         intrinsics.columns.2[1] /= ratio
-        
-        let depthValues: [Float32] = depthPixelBuffer.grayPixelData()
-        
+                
         return depthValues.enumerated().map {
             let z = Float($0.element)
             let index = $0.offset
-            let u = Float(index % width)
-            let v = Float(index / width)
+            let u = Float(index % depthWidth)
+            let v = Float(index / depthWidth)
             
             let x = (u - intrinsics.columns.2[0]) * z / intrinsics.columns.0[0];
             let y = (v - intrinsics.columns.2[1]) * z / intrinsics.columns.1[1];
@@ -121,20 +117,23 @@ class ViewController: UIViewController {
         guard let depthData = depthData else { return }
         
         let depthPixelBuffer = depthData.depthDataMap
-        let width  = CVPixelBufferGetWidth(depthPixelBuffer)
-        let resizeScale = CGFloat(width) / CGFloat(colorImage.size.width)
+        let depthWidth  = CVPixelBufferGetWidth(depthPixelBuffer)
+        let resizeScale = CGFloat(depthWidth) / CGFloat(colorImage.size.width)
         let resizedColorImage = CIImage(cgImage: cgColorImage).transformed(by: CGAffineTransform(scaleX: resizeScale, y: resizeScale))
         guard let pixelDataColor = resizedColorImage.createCGImage().pixelData() else { fatalError() }
 
-//        let points = convertRGBDtoXYZ(colorImage: cgColorImage, depthPixelBuffer: depthPixelBuffer)
+        let depthValues: [Float32] = depthPixelBuffer.depthValues()
 
         guard let cameraCalibrationData = depthData.cameraCalibrationData else { return }
-        let points = convertRGBDtoXYZ(colorImage: cgColorImage, depthPixelBuffer: depthPixelBuffer, cameraCalibrationData: cameraCalibrationData)
+        let points = convertRGBDtoXYZ(colorImage: cgColorImage, depthValues: depthValues, depthWidth: depthWidth, cameraCalibrationData: cameraCalibrationData)
 
+        // 奥の方にある点群をカット
+//        let zFarthest = depthValues.max()!
+        let zNearest = depthValues.min()!
         var reducedPoints: [SCNVector3] = []
         var reducedColors: [UInt8] = []
         points.enumerated().forEach {
-            if abs($1.z) < 10 {
+            if abs($1.z) < zNearest + 1.0 {
                 reducedPoints.append($1)
 
                 reducedColors.append(pixelDataColor[$0 * 4])
@@ -143,9 +142,11 @@ class ViewController: UIViewController {
                 reducedColors.append(pixelDataColor[$0 * 4 + 3])
             }
         }
-        
+
         // Draw as a custom geometry
         let pc = PointCloud()
+//        pc.points = points
+//        pc.colors = pixelDataColor
         pc.points = reducedPoints
         pc.colors = reducedColors
         let pcNode = pc.pointCloudNode()
@@ -215,7 +216,7 @@ extension CGImage {
 extension CVPixelBuffer {
 
     // デプスが16bitで得られていることを前提
-    func grayPixelData() -> [Float32] {
+    func depthValues() -> [Float32] {
         CVPixelBufferLockBaseAddress(self, CVPixelBufferLockFlags(rawValue: 0))
         let width = CVPixelBufferGetWidth(self)
         let height = CVPixelBufferGetHeight(self)

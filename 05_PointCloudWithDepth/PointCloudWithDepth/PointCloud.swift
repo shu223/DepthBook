@@ -70,7 +70,7 @@ struct PointCloudVertex {
         // for bigger dots
         element.pointSize = 1
         element.minimumPointScreenSpaceRadius = 1
-        element.maximumPointScreenSpaceRadius = 5
+        element.maximumPointScreenSpaceRadius = 7
 
         let pointsGeometry = SCNGeometry(sources: [positionSource, colorSource], elements: [element])
         
