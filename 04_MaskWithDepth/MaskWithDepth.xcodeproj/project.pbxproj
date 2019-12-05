@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A501FDD239905B5001A8F87 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A501FDC239905B5001A8F87 /* MetalKit.framework */; };
 		8A892C7D215E17120094DB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892C7C215E17120094DB58 /* AppDelegate.swift */; };
 		8A892C7F215E17120094DB58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A892C7E215E17120094DB58 /* ViewController.swift */; };
 		8A892C82215E17120094DB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A892C80215E17120094DB58 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A501FDC239905B5001A8F87 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		8A892C79215E17120094DB58 /* MaskWithDepth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskWithDepth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A892C7C215E17120094DB58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A892C7E215E17120094DB58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,12 +41,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A501FDD239905B5001A8F87 /* MetalKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A501FDB239905B5001A8F87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A501FDC239905B5001A8F87 /* MetalKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A892C70215E17120094DB58 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +64,7 @@
 				8A892C8E215E17DF0094DB58 /* VideoCapture */,
 				8A892C7B215E17120094DB58 /* MaskWithDepth */,
 				8A892C7A215E17120094DB58 /* Products */,
+				8A501FDB239905B5001A8F87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
