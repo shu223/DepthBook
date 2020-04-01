@@ -7,7 +7,7 @@ DEPENDENCIES:
   - SwiftAssetsPickerController (from `https://github.com/shu223/SwiftAssetsPickerController`, branch `temp/depth_swift5`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - CheckMarkView
 
 EXTERNAL SOURCES:
@@ -26,4 +26,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 2a6fbb5d5e6571321c8f2393899f4cbd2a0eea77
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.9.1
